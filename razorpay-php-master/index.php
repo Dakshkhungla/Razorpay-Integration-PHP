@@ -6,8 +6,8 @@ use Razorpay\Api\Api;
 
 if(isset($_POST['sub'])){
     // Razorpay API key and secret
-$keyId = 'rzp_test_igWcu0vvCwZk1f';
-$keySecret = 'GvXBzPZLevOVxMX4H80wGp3w';
+$keyId = 'keyid';
+$keySecret = 'key_Secret';
 
 // Create a new instance of the API class
 $api = new Api($keyId, $keySecret);
